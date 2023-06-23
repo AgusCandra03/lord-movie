@@ -1,0 +1,240 @@
+@media (max-width: 991.98px) {
+    p{
+        color: silver;
+        opacity: 0.6;
+    }
+    
+    h1, h2, h3, h4, h5, h6{
+        color: white;
+    }
+    
+    .button {
+        
+        height: 40px;
+        background-color: #e50914;
+        border-radius: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+    }
+    
+    .button:hover{
+        background-color: #DC3545;
+    }
+    
+    .button-info {
+        height: 40px;
+        border-color: white;
+        background-color: transparent;
+        border-radius: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+    }
+    
+    .button-info:hover{
+        background-color: #e50914;
+    }
+    
+    /* navbar */
+    
+    .navbar{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .navbar a{
+        color: white;
+    }
+    
+    .navbar a:hover{
+        color: #DC3545;
+        opacity: 3.42;
+    }
+    
+    .navbar img{
+        width: 150px;
+    }
+    
+    .navbar-nav{
+        margin-left: auto;
+    }
+    
+    .nav-link{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .navbar-nav button{
+        margin-left: 10px;
+    }
+    
+    .navbar-nav select{
+        background-color: transparent;
+        color: white;
+        border-radius: 8px;
+        width: 40%;
+        height: 40px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .navbar-nav option{
+        background-color: black;
+        color: white;
+    }
+    
+    /* banner */
+    
+    #banner{
+        width: 100%;
+    }
+    
+    #banner img{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height:60vh;
+        opacity: 0.7;
+        margin-top: -270px;
+    }
+    
+    #banner .caption{
+        position: relative;
+        z-index: 2;
+        top: 50px;
+        color: white;
+        margin-left: 20px;
+        width: 90%;
+    }
+    
+    #banner .caption h2{
+        color: #e70410;
+    }
+    
+    /* partner */
+    
+    #partner{
+        margin-top: 18vh;
+        text-align: center;
+    }
+    
+    #partner img{
+        width: 50%;
+        height: 10vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        opacity: 0.8;
+    }
+    
+    #partner h5{
+        margin-top: 15px;
+    }
+    
+    /* popular */
+    
+    #popular {
+        width: 100%;
+        margin-top: 16vh;
+        margin-bottom: 14vh;
+    }
+    
+    #popular img{
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 20px;
+        transition: transform .7s ease-in-out;
+    }
+    
+    #popular .card{
+        box-shadow: rgb(174, 176, 179);
+    }
+    
+    #popular a{
+        color: #e70410;
+    }
+    
+    /* series */
+    
+    #series {
+        margin-bottom: 14vh;
+    }
+    
+    #series .card{
+        background-color: black;
+    }
+    
+    #series .card-body{
+        margin-left: -14px;
+    }
+    
+    #series img{
+        width: 100%;
+        height: 40vh;
+    }
+    
+    /* trailer */
+    
+    #trailer .card-body{
+        margin-left: 0px;
+        margin-top: 2px;
+        text-align: justify;
+    }
+    
+    #trailer .button{
+        margin-right: 10px;
+    }
+    
+    
+    /* iklan */
+    
+    #iklan{
+        margin-top: 16vh;
+        margin-bottom: 14vh;
+    }
+    
+    #iklan img{
+        width: 100%;
+        height: 40vh;
+    }
+    
+    /* footer */
+
+    #footer {
+        margin-left: 5px;
+    }
+    
+    #footer hr{
+        border: 2px solid #e50914;
+    }
+    
+    #footer a{
+        text-decoration: none;
+        color: silver;
+    }
+    
+    #footer img{
+        width: 40px;
+        margin-right: 10px;
+    }
+    
+    #footer .logo {
+        width: 150px; 
+        margin-left: -10px;
+    }
+    
+    #footer .img-playstore {
+        width: 150px; 
+        margin-left: -10px;
+    }
+    
+    #footer .img-appstore {
+        width: 130px; 
+        height: 50px;
+    }
+
+    #footer .sosmed{
+    }
+}
